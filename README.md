@@ -3,6 +3,7 @@
 [![CI](https://github.com/philiprehberger/ts-throttle/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-throttle/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/throttle)](https://www.npmjs.com/package/@philiprehberger/throttle)
 [![License](https://img.shields.io/github/license/philiprehberger/ts-throttle)](LICENSE)
+[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
 
 Configurable throttle with leading/trailing edge control and AbortSignal support.
 
