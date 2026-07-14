@@ -8,25 +8,49 @@
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": { "types": "./dist/index.d.ts", "default": "./dist/index.js" },
-      "require": { "types": "./dist/index.d.cts", "default": "./dist/index.cjs" }
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "tsup",
-    "dev": "tsup --watch",
+    "build": "tsdown",
+    "dev": "tsdown --watch",
     "typecheck": "tsc --noEmit",
     "test": "node --test",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["throttle", "rate-limit", "debounce", "timing", "performance"],
+  "keywords": [
+    "throttle",
+    "rate-limit",
+    "debounce",
+    "timing",
+    "performance"
+  ],
   "author": "Philip Rehberger",
   "license": "MIT",
-  "repository": { "type": "git", "url": "git+https://github.com/philiprehberger/ts-throttle.git" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philiprehberger/ts-throttle.git"
+  },
   "homepage": "https://github.com/philiprehberger/ts-throttle#readme",
-  "bugs": { "url": "https://github.com/philiprehberger/ts-throttle/issues" },
-  "devDependencies": { "tsup": "^8.0.0", "typescript": "^6.0.2" },
-  "engines": { "node": ">=18.0.0" },
+  "bugs": {
+    "url": "https://github.com/philiprehberger/ts-throttle/issues"
+  },
+  "devDependencies": {
+    "tsdown": "^0.22.7",
+    "typescript": "^7.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "sideEffects": false
 }
